@@ -1,0 +1,20 @@
+  625  ls
+  626  mkdir Operationg systems
+  627  cd Operating systems
+  628  ls
+  629  mkdir os_course
+  630  cd os_course
+  631  mkdir week1
+  632  cd week
+  633  cd week1
+  634  grep gcc /usr/bin
+  635  grep gcc '/usr/bin'
+  636  man grep
+  637  grep 'gcc' /usr/bin
+  638  grep "gcc" /usr/bin
+  639  grep -r "gcc" /usr/bin
+  640  grep -r "gcc" /usr/bin | sort -r
+  641  grep -r "gcc" /usr/bin | sort -r > ~/os_course/week1/ex1.txt
+  642  history
+  643  history | tail -n 5
+  644  history | tail -n 20 > ~/os_course/week1/ex2.txt
