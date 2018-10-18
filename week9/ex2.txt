@@ -1,0 +1,7 @@
+2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+This is sequence that will increase hit/miss ratio, as the page referenced
+is already in memory and keep referencing only those pages that page frames
+we have. Idea is simple - trying to reference already loaded pages.
+5 6 7 8 9 10 11 12 13 14 15
+This sequence will result in decreasing hit/miss ratio, as we always
+reference the new page (which is not in memory). The amount of page frames does not play a big role (we do not care about it in case)  
