@@ -1,0 +1,34 @@
+total 48
+drwxr-xr-x   9 admin  staff  306 Oct 24 20:30 .
+drwxr-xr-x  14 admin  staff  476 Oct 24 20:18 ..
+-rw-r--r--   3 admin  staff    4 Oct 24 20:00 _ex1.txt
+-rw-r--r--   3 admin  staff    4 Oct 24 20:00 _ex1_1.txt
+-rw-r--r--   3 admin  staff    4 Oct 24 20:00 _ex1_2.txt
+-rw-r--r--   1 admin  staff    2 Oct 24 20:19 _ex3.txt
+-rw-r--r--   1 admin  staff   58 Oct 24 20:03 ex1.txt
+-rw-r--r--   1 admin  staff   37 Oct 24 20:18 ex2.txt
+-rw-r--r--   1 admin  staff    0 Oct 24 20:30 ex3.txt
+total 56
+drwxr-xr-x   9 admin  staff  306 Oct 24 20:30 .
+drwxr-xr-x  14 admin  staff  476 Oct 24 20:18 ..
+-rw-r--r--   3 admin  staff    4 Oct 24 20:00 _ex1.txt
+-rw-r--r--   3 admin  staff    4 Oct 24 20:00 _ex1_1.txt
+-rw-r--r--   3 admin  staff    4 Oct 24 20:00 _ex1_2.txt
+-rwxr--rwx   1 admin  staff    2 Oct 24 20:19 _ex3.txt
+-rw-r--r--   1 admin  staff   58 Oct 24 20:03 ex1.txt
+-rw-r--r--   1 admin  staff   37 Oct 24 20:18 ex2.txt
+-rw-r--r--   1 admin  staff  492 Oct 24 20:30 ex3.txt
+total 56
+drwxr-xr-x   9 admin  staff  306 Oct 24 20:30 .
+drwxr-xr-x  14 admin  staff  476 Oct 24 20:18 ..
+-rw-r--r--   3 admin  staff    4 Oct 24 20:00 _ex1.txt
+-rw-r--r--   3 admin  staff    4 Oct 24 20:00 _ex1_1.txt
+-rw-r--r--   3 admin  staff    4 Oct 24 20:00 _ex1_2.txt
+-rwxrwxrwx   1 admin  staff    2 Oct 24 20:19 _ex3.txt
+-rw-r--r--   1 admin  staff   58 Oct 24 20:03 ex1.txt
+-rw-r--r--   1 admin  staff   37 Oct 24 20:18 ex2.txt
+-rw-r--r--   1 admin  staff  984 Oct 24 20:31 ex3.txt
+
+660 means that ex3.txt has read, write permissions for user, the same for group and nothing for others
+775 means that ex3.txt has read, write, execute permissions for everyone escept write for others
+777 means that ex3.txt has all permissions for everyone
